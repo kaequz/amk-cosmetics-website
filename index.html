@@ -9,6 +9,10 @@
       display: flex;
       justify-content: center;
       height: 100%;
+      background-image: url('bg.jpg');
+      background-repeat: no-repeat;
+  background-attachment: fixed; 
+      
       }
       body, div, h1, form, input, p { 
       padding: 0;
@@ -129,13 +133,18 @@
       background: #d37573;
       }
     </style>
+
+
   </head>
   <body>
+   
     <div class="main-block">
-      <h1>Login to continue</h1>
+        <h1>💄</h1>
+      <b><h1>AMK Cosmetics</h1>
       <form action="main.html" method="GET">
-        
         <hr>
+        <p> Please login to continue.</p>
+      
         <label id="icon" for="name"><i class="fas fa-user"></i></label>
         <input type="text" name="name" id="name" placeholder="Name" required/>
         <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
@@ -143,7 +152,7 @@
         <hr>
         
         <div class="btn-block">
-          <button type="submit" href="/">Login</button>
+          <button type="submit" href="/">Login</button></b>
         </div>
       </form>
     </div>
